@@ -3,6 +3,7 @@
   <head>
     <title>Flor y Marian</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="css/slideshow.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/style_vertical.css" type="text/css" media="screen"/>
   </head>
   <style>
@@ -44,63 +45,61 @@
         <div align='center' class='subheadline'>Its seems that this is your last day with us. Lets have capture some good memories...</div>
         <img src='images/flower.png' class='photo' alt='flower'/>
       </div>
+
       <div class="section white" id="section2">
         <!-- <img class='photo' alt='photo' src='images/photo.jpg'/> -->
-        <h1 class="ml3">We wish you a happy retirement filled with fun and happiness. 
+        <h1 class="ml3">
+          Here's what some people felt about you!
+
+          <!-- We wish you a happy retirement filled with fun and happiness. 
           We are wishing you a long, healthy, and happy retirement! Congratulations, 
-          now the fun begins. Best wishes on your new chapter in life</h1>
-        
+          now the fun begins. Best wishes on your new chapter in life -->
+        </h1>
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/slideshow/1.jpg" style="width:100%">
+            <div class="text">
+              Your commitment to your job makes us proud! We value your 
+              input and love to have you around to make us realize how 
+              important it is to stay committed even when faced with 
+              tight deadlines and difficult challenges.</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/slideshow/2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/slideshow/3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+          </div>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+          
+
       </div>
-      <div class="section white" id="section3">
-        <div class='left'>
-          <h2>LUGAR</h2>
-          <p><a target='blank' href='http://wikimapia.org/#lang=en&lat=-33.057738&lon=-68.832082&z=17&m=b'>Divina Marga</a></p>
-              <h2>FECHA Y HORA</h2>
-              <p>Lunes 3 de Marzo, 2014 - 19:00hs</p>
-              <h2>DIRECCIÓN</h2>
-              <div class='address'>
-                <p class='small'>Calle Pública s/n, Lunlunta</p>
-                <p class='small'>Maipú, Mendoza</p>
-                <p class='small'><a target='blank' href='http://www.divinamarga.com.ar'> www.divinamarga.com.ar</a></p>
-              </div>
-              <p class=small><a href='http://www.facebook.com/events/1374541792806537/'>Evento del casamiento en Facebook</a></p>
-            </div>
-            <div class='left'>
-              <img src='images/mapa.png'/>
-            </div>
-          </div>
-          <div class="section white" id="section4">
-            <h2>IGLESIA</h2>
-            <p> No hay.</p>
-            <p> El civil se realizara en Divina Marga.</p>
-            <p> Llegar puntual :)</p>
-          </div>
-          <div class="section white fancy" id="section5">
-            <h2>REGALITOS</h2>
-            <div>
-              <p>Si nos quieren hacer un regalito hay 2 opciones:</p>
-              <p><span>Opción 1: </span>En un sobre a nuestros padres</p>
-              <p><span>Opción 2: </span>Transferencia bancaria.</p>
-              <p class='small'> Banco Patagonia.</p>
-              <p class='small'>Titular: Valles, Mariano David</p>
-              <p class='small'>CBU: 0340060908600017955005</p>
-              <p class='small'>CUIL:20312862930</p>
-            </div>
-          </div>
-          <div class="section white" id="section5">
-            <h2>CREDITOS</h2>
-            <div>
-              <p>Iconos: <a href="http://icons8.com/">Icons8</a></p>
-              <p>Scroll tutorial: <a href="http://bit.ly/1cYIajI">codrops</a></p>
-              <p>Hecho por: <a href="http://facebook.com/marianvalles/">Marian</a> y <a href="http://facebook.com/florencia.monge.14/">Flor</a></p>
-              <p><img src="images/berlin.png"/></p>
-            </div>
-          </div>
+
           <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
           <script type="text/javascript" src="jquery.easing.1.3.js"></script>
           <script type="text/javascript" src="main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script type="text/javascript" src="./scripts/moving-text.js"></script>
+        <script type="text/javascript" src="./scripts/slideshow.js"></script>
         </body>
         </html>
         

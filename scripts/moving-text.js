@@ -5,7 +5,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
 );
 
 anime
-  .timeline({ loop: false })
+  .timeline({ loop: true })
   .add({
     targets: ".ml3 .letter",
     opacity: [0, 1],
